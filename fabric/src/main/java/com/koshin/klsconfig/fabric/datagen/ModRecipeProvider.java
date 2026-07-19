@@ -31,7 +31,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .unlockedBy("has_diamond", has(Items.DIAMOND))
                 .save(exporter);
 
-        shapeless(RecipeCategory.DECORATIONS, ModItems.yourItem)
+        shapeless(RecipeCategory.DECORATIONS, ModItems.creativeWrench)
                 .requires(Items.DIAMOND)
                 .requires(Items.BONE_MEAL)
                 .unlockedBy("has_bone_meal", has(Items.BONE_MEAL))
