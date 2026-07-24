@@ -23,6 +23,7 @@ public class KarEngine {
     }
 
     public static void initialize(BalmRegistrars registrars) {
+        logger.info("Initializing KAR Engine v0.1.0");
         Balm.getConfig().registerConfig(KarEngineConfig.class);
 
         registrars.blocks(ModBlocks::initialize);
